@@ -1,0 +1,157 @@
+body {
+  background-color: #fafafa;
+  padding-top: 20px;
+  font-family: "Lato",sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+/*Creates a max size for the log picture in the left corner*/
+.logo {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+/*This makes one of the images stretch out if the screen is past the 1600px size*/
+.m-w {
+  width: 100%;
+  height: auto;
+}
+
+/*Mutes all other colors for one class*/
+.text-muted {
+  color: #bcbbbb;
+  padding-bottom: 5px;
+}
+
+/*Creats a thickness for font for text-thin class*/
+.text-thin {
+  font-weight: 100;
+}
+
+/*Changes font size for text-super class*/
+.text-super {
+  font-size: 60px;
+}
+
+/*Makes the hr tag thicker and changes the color of it*/
+hr {
+  border-width: 2px;
+  border-color: #747704;
+}
+
+/*Changes the color of the background when opening a modal*/
+.modal-backdrop {
+  background-color: #cce0ff;
+}
+
+/*Hovering over the images with class box, creates a glow effects behind them*/
+.box:hover {
+  -webkit-box-shadow: 0 0 24px 5px rgba(101,195,245,1);
+  -moz-box-shadow: 0 0 24px 5px rgba(101,195,245,1);
+  box-shadow: 0 0 24px 5px rgba(101,195,245,1);
+}
+
+/* Changing the position of the logo*/
+/* Netbook*/
+@media (max-width: 991px) {
+.logo {
+  position: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+.logo {
+  position: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/*Smartphone*/
+@media (max-width: 320px) {
+.logo {
+  position: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/*Changes the size of the h tags for different platforms*/
+/*Netbook*/
+@media screen and (max-width: 991px) {
+p,
+.btn,
+input,
+div,
+span,
+h4 {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+} 
+
+h3 {
+  font-size: 22px;
+  text-align: center;
+}
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+p,
+.btn,
+input,
+div,
+span,
+h4 {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 18px;
+}
+}
+
+/*Smartphone*/
+@media screen and (max-width: 320px) {
+p,
+.btn,
+input,
+div, 
+span,
+h4 {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
+}
+}
